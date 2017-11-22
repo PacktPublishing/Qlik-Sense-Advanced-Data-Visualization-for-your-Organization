@@ -1,0 +1,7 @@
+if(("Status of existing checking account" = 'A11' OR "Status of existing checking account" = 'A12' OR "Status of existing checking account" = 'A13') AND
+   ("Duration in month" = 22.5) AND
+   ("Purpose" = 'A41' OR "Purpose" = 'A410' OR "Purpose" = 'A42' OR "Purpose" = 'A43' OR "Purpose" = 'A44' OR "Purpose" = 'A46' OR "Purpose" = 'A49') AND
+   ("Purpose" = 'A410' OR "Purpose" = 'A42' OR "Purpose" = 'A43' OR "Purpose" = 'A44' OR "Purpose" = 'A49') AND
+   ("Status of existing checking account" = 'A11' OR "Status of existing checking account" = 'A12') AND
+   ("Savings account bonds" = 'A61' OR "Savings account bonds" = 'A62') AND
+   ("Duration in month" >= 43.5), 2, 0) AS Prediction,
